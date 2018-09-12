@@ -15,6 +15,9 @@
 		7988BCB0214102EA00DC684F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7988BCAE214102EA00DC684F /* Main.storyboard */; };
 		7988BCB2214102EB00DC684F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7988BCB1214102EB00DC684F /* Assets.xcassets */; };
 		7988BCB5214102EB00DC684F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7988BCB3214102EB00DC684F /* LaunchScreen.storyboard */; };
+		7988BCBD2141037300DC684F /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 7988BCBC2141037300DC684F /* Sounds */; };
+		7988BCC0214103CB00DC684F /* BallTouchParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7988BCBE214103CA00DC684F /* BallTouchParticle.sks */; };
+		7988BCC1214103CB00DC684F /* EnemyExplosionParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7988BCBF214103CA00DC684F /* EnemyExplosionParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		7988BCB1214102EB00DC684F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7988BCB4214102EB00DC684F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7988BCB6214102EB00DC684F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7988BCBC2141037300DC684F /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		7988BCBE214103CA00DC684F /* BallTouchParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallTouchParticle.sks; sourceTree = "<group>"; };
+		7988BCBF214103CA00DC684F /* EnemyExplosionParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EnemyExplosionParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 		7988BCA3214102EA00DC684F /* HBV */ = {
 			isa = PBXGroup;
 			children = (
+				7988BCBE214103CA00DC684F /* BallTouchParticle.sks */,
+				7988BCBF214103CA00DC684F /* EnemyExplosionParticle.sks */,
+				7988BCBC2141037300DC684F /* Sounds */,
 				7988BCA4214102EA00DC684F /* AppDelegate.swift */,
 				7988BCA6214102EA00DC684F /* GameScene.sks */,
 				7988BCA8214102EA00DC684F /* Actions.sks */,
@@ -131,11 +140,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7988BCBD2141037300DC684F /* Sounds in Resources */,
 				7988BCB0214102EA00DC684F /* Main.storyboard in Resources */,
 				7988BCA7214102EA00DC684F /* GameScene.sks in Resources */,
 				7988BCB2214102EB00DC684F /* Assets.xcassets in Resources */,
+				7988BCC1214103CB00DC684F /* EnemyExplosionParticle.sks in Resources */,
 				7988BCB5214102EB00DC684F /* LaunchScreen.storyboard in Resources */,
 				7988BCA9214102EA00DC684F /* Actions.sks in Resources */,
+				7988BCC0214103CB00DC684F /* BallTouchParticle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,13 +305,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9G49QBGYTJ;
+				DEVELOPMENT_TEAM = YKH225THYS;
 				INFOPLIST_FILE = HBV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aluxian.HBV;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.futuristico.hbv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,13 +323,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9G49QBGYTJ;
+				DEVELOPMENT_TEAM = YKH225THYS;
 				INFOPLIST_FILE = HBV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aluxian.HBV;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.futuristico.hbv;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
